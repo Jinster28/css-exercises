@@ -1,0 +1,23 @@
+/* style.css */
+
+p {
+    background-color: #e06d6d;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#two {
+    color: #2a4ba8;
+    font-size: 36px;
+}
+
+.fs24 {
+    font-size: 24px;
+}
+
+.bggreen {
+    background-color: #1cb317;   
+}
+
+.bold {
+    font-weight: bold;
+}
