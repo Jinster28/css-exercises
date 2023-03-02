@@ -15,11 +15,10 @@ body {
   justify-content: center;
 }
 
-.modal {
-  background: white;
-  width: 480px;
-  border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .icon {
@@ -27,7 +26,7 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 180px;
   height: 42px;
   border-radius: 50%;
   display: flex;
@@ -46,6 +45,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.modal {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
